@@ -1,3 +1,5 @@
 # Testes Aprovados
 
-Nenhum caso aprovado foi registrado. A execução está pendente.
+CT003, CT004, CT005, CT006, CT007, CT008, CT009, CT010, CT011 e CT012.
+
+Total: 10 casos.
