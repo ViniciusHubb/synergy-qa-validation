@@ -1,0 +1,19 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Playwright output
+artifacts/08-automacao/test-results/
+artifacts/08-automacao/playwright-report/
+artifacts/08-automacao/blob-report/
+artifacts/08-automacao/.auth/
+
+# Dependency and tool caches
+node_modules/
+*.log
+
+# Local analysis intermediates
+artifacts/referencia-template-extraida.txt
+artifacts/05-evidencias/.tmp/
+

@@ -1,3 +1,3 @@
 # Bugs Retestados
 
-Nenhum defeito foi retestado.
+Não há bugs de produto para reteste.
