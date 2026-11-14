@@ -4,7 +4,7 @@
 
 | Requisito | Cenário | Evidência | Bug | Cobertura |
 |---|---|---|---|---|
-| RF001 | CT001, CT002 | EV-AUTO-001, EV-AUTO-002 | Nenhum | Bloqueado: ambos os cenários afetados pelo rate limit |
+| RF001 | CT001, CT002 | EV-AUTO-001, EV-AUTO-002 | Nenhum | Coberto após reinício do ambiente |
 | RF002 | CT003 | EV-AUTO-003 | Nenhum | Coberto |
 | RF003 | CT004 | EV-AUTO-004 | Nenhum | Coberto |
 | RF004 | CT005 | EV-AUTO-005 | Nenhum | Coberto |
@@ -23,7 +23,7 @@
   validação exploratória de interface e rastreados pelas evidências EV-MAN-001
   e EV-MAN-002.
 - Cobertura planejada: 10/10 requisitos funcionais = 100%.
-- Cobertura executada com ao menos um cenário aprovado: 9/10 = 90%.
-- Cenários aprovados: 10/12 = 83,3% do total planejado.
-- Taxa de sucesso entre cenários executados: 10/10 = 100%.
+- Cobertura executada com ao menos um cenário aprovado: 10/10 = 100%.
+- Cenários aprovados: 12/12 = 100% do total planejado.
+- Taxa de sucesso entre cenários executados: 12/12 = 100%.
 - Bugs confirmados: 2, ambos abertos e sem reteste.

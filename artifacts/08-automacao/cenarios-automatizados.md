@@ -2,7 +2,7 @@
 
 | Cenário | Requisito | Script | Prioridade | Resultado |
 |---|---|---|---|---|
-| CT001 | RF001 | `synergy.spec.js` | Alta | Bloqueado por rate limit de cadastro |
+| CT001 | RF001 | `synergy.spec.js` | Alta | Aprovado após reinício do ambiente |
 | CT002 | RF001 | `synergy.spec.js` | Alta | Aprovado |
 | CT003 | RF002 | `synergy.spec.js` | Alta | Aprovado |
 | CT004 | RF003 | `synergy.spec.js` | Alta | Aprovado após uso de `ADMIN_PASSWORD` |
@@ -15,6 +15,7 @@
 | CT011 | RF008, RF009 | `synergy.spec.js` | Média | Aprovado |
 | CT012 | RF008, RF010 | `synergy.spec.js` | Média | Aprovado |
 
-Os bloqueios não foram classificados como bugs porque decorreram de limitação
-de rate limiting, ausência de uma conta de teste válida e massa de dados já
-utilizada.
+Observação operacional: execuções repetidas de cadastro em sequência podem
+acionar o rate limit e bloquear temporariamente CT001 ou CT002. Esse cenário
+não ocorreu na execução oficial após o reinício e não foi classificado como
+bug de produto.

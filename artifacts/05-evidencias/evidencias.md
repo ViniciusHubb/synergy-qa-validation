@@ -11,3 +11,7 @@ Também foram registradas duas evidências manuais de defeitos de interface:
 EV-MAN-001, relacionada ao botão “Criar conta gratuita” exibido para usuário
 autenticado, e EV-MAN-002, relacionada ao espaçamento dos cards e ao selo
 Premium fora do enquadramento. Ambas permanecem associadas a bugs abertos.
+
+O documento consolidado está em
+`evidencias-execucao-e-defeitos.pdf` e reúne uma imagem para cada CT001–CT012
+e as imagens dos BUG-001 e BUG-002.

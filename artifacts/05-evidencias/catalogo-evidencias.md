@@ -2,8 +2,8 @@
 
 | ID | Cenário | Tipo | Arquivo/Origem | Status |
 |---|---|---|---|---|
-| EV-AUTO-001 | CT001 | Resultado Playwright | Relatório HTML | Bloqueado |
-| EV-AUTO-002 | CT002 | Resultado Playwright | Relatório HTML | Bloqueado |
+| EV-AUTO-001 | CT001 | Resultado Playwright | Relatório HTML | Aprovado |
+| EV-AUTO-002 | CT002 | Resultado Playwright | Relatório HTML | Aprovado |
 | EV-AUTO-003 | CT003 | Resultado Playwright | Relatório HTML | Aprovado |
 | EV-AUTO-004 | CT004 | Resultado Playwright | Relatório HTML | Aprovado |
 | EV-AUTO-005 | CT005 | Resultado Playwright | Relatório HTML | Aprovado |

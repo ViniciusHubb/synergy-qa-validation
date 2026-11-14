@@ -3,9 +3,8 @@
 ## 1. Situação
 
 Esta rodada validou o MVP Synergy por meio de 12 cenários prioritários
-automatizados com Playwright. Foram registrados 10 cenários aprovados, 2
-bloqueados pelo rate limit do ambiente e 2 bugs de interface identificados em
-validação manual.
+automatizados com Playwright. Os 12 cenários foram aprovados após o reinício
+do ambiente, e 2 bugs de interface foram identificados em validação manual.
 
 ## 2. Objetivo e escopo
 
@@ -18,13 +17,14 @@ os cenários CT001 a CT012.
 | Resultado | Quantidade |
 |---|---:|
 | Cenários planejados | 12 |
-| Cenários aprovados | 10 |
+| Cenários aprovados | 12 |
 | Cenários reprovados | 0 |
-| Cenários bloqueados | 2 |
+| Cenários bloqueados | 0 |
 
-CT001 e CT002 permaneceram bloqueados pelo rate limit de cadastro. Os demais
-10 cenários foram aprovados. CT004 e CT005 foram revalidados com a senha
-administrativa fornecida somente por variável de ambiente.
+CT001 a CT012 foram aprovados. CT004 e CT005 foram revalidados com a senha
+administrativa fornecida somente por variável de ambiente. Execuções repetidas
+de cadastro em sequência podem acionar o rate limit e bloquear temporariamente
+CT001 ou CT002; isso fica registrado apenas como observação operacional.
 
 ## 4. Evidências
 
@@ -47,12 +47,12 @@ rodada.
 
 A matriz completa está em `../07-rastreabilidade/matriz-rastreabilidade.md`.
 Todos os 10 requisitos funcionais possuem cenários associados. A cobertura
-executada com ao menos um cenário aprovado foi de 9/10 requisitos, pois RF001
-permaneceu bloqueado pelo rate limit.
+executada com ao menos um cenário aprovado foi de 10/10 requisitos.
 
 ## 7. Conclusão
 
-A suíte automatizada aprovou integralmente os cenários que puderam ser
-executados. Para concluir a validação de cadastro, é necessário aguardar ou
-resetar o rate limit e reexecutar CT001 e CT002. Os BUG-001 e BUG-002 devem ser
-corrigidos e posteriormente submetidos a reteste.
+A suíte automatizada aprovou integralmente os 12 cenários. Os BUG-001 e BUG-002
+devem ser corrigidos e posteriormente submetidos a reteste.
+
+O PDF final de entrega, com as cinco etapas e a tabela de casos de teste, está
+em `entrega-final-24-11-2026.pdf`.

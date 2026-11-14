@@ -13,3 +13,7 @@ artifacts/08-automacao/.auth/
 node_modules/
 *.log
 
+# Local analysis intermediates
+artifacts/referencia-template-extraida.txt
+artifacts/05-evidencias/.tmp/
+

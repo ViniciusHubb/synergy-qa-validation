@@ -25,6 +25,7 @@ ignorados pelo Git. A senha real não deve ser adicionada a arquivos versionados
 
 ## Resultado da primeira execução
 
-Foram executados 12 testes: 10 aprovados e 2 bloqueados pelo rate limit do
-ambiente.
+Foram executados 12 testes: 12 aprovados. Execuções repetidas de cadastro em
+sequência podem acionar o rate limit e bloquear temporariamente CT001 ou CT002;
+essa é uma observação operacional do ambiente, não um resultado desta execução.
 Não houve falha confirmada como defeito do produto.

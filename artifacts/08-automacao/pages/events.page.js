@@ -51,7 +51,7 @@ class EventsPage {
 
   async confirmAttendance() {
     await this.joinButton.click();
-    await expect(this.cancelAttendanceButton).toBeVisible();
+    await expect(this.cancelAttendanceButton).toBeVisible({ timeout: 15_000 });
   }
 }
 

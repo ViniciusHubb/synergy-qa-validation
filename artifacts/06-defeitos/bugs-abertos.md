@@ -3,6 +3,7 @@
 ## BUG-001 — Botão “Criar conta gratuita” exibido para usuário autenticado
 
 - **Severidade:** Média
+- **Prioridade:** Alta
 - **Status:** Aberto
 - **Origem:** Validação manual com evidência visual
 - **Descrição:** Após realizar login e clicar na logo Synergy para retornar à
@@ -23,6 +24,7 @@ O bloqueio de CT001 e CT002 por rate limiting continua documentado em
 ## BUG-002 — Conteúdo dos cards sem espaçamento superior e selo Premium fora do enquadramento
 
 - **Severidade:** Baixa
+- **Prioridade:** Média
 - **Status:** Aberto
 - **Origem:** Validação manual com evidências visuais
 - **Descrição:** O conteúdo interno dos cards aparece sempre colado à borda
